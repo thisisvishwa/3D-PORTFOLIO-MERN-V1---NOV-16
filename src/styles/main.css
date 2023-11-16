@@ -1,0 +1,70 @@
+/* src/styles/main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation Bar Styles */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Home Section Styles */
+#home {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+/* Blog Section Styles */
+#blog {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+/* Scroll To Top Button Styles */
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,29 @@
+/* Responsive CSS for 3D Portfolio Nov 16 V1 */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #navbar, #home, #projects, #contact, #blog, #scrollToTop {
+        /* Your CSS properties for small devices here */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #navbar, #home, #projects, #contact, #blog, #scrollToTop {
+        /* Your CSS properties for medium devices here */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #navbar, #home, #projects, #contact, #blog, #scrollToTop {
+        /* Your CSS properties for large devices here */
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #navbar, #home, #projects, #contact, #blog, #scrollToTop {
+        /* Your CSS properties for extra large devices here */
+    }
+}
